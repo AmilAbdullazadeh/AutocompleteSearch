@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.Search:focus {
+  outline: none;
+  box-shadow: #282c34;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.response {
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+  padding: 10px;
+  width: 250px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
